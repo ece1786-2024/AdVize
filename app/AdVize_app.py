@@ -9,14 +9,22 @@ st.title("AdVize")
 
 st.markdown("AdVize is a tool for app builders to more efficiently evaluate their ad-pushing algorithms.")
 
+# """
+# ### Instructions:
+# 1. Use the first uploader to select the Docker image (`.tar`) that defines the ad-pushing algorithm to be tested.
+#     * The input to the algorithm is a search query (String).
+#     * The output of the algorithm is an advertisement (String).
+# 2. (Optional) Use the second uploader to select a CSV file (`.csv`) for the database of commercial ads.
+# 3. (Optional) Use the third uploader to select a CSV file (`.csv`) for the persona data.
+# 4. Click the "Run" button to view the expected satisfaction rate if the selected ad-pushing algorithm is used in your search engine.
+# """
+
 st.markdown("""
 ### Instructions:
 1. Use the first uploader to select the Docker image (`.tar`) that defines the ad-pushing algorithm to be tested.
     * The input to the algorithm is a search query (String).
     * The output of the algorithm is an advertisement (String).
-2. (Optional) Use the second uploader to select a CSV file (`.csv`) for the database of commercial ads.
-3. (Optional) Use the third uploader to select a CSV file (`.csv`) for the persona data.
-4. Click the "Run" button to view the expected satisfaction rate if the selected ad-pushing algorithm is used in your search engine.
+2. Click the "Run" button to view the expected satisfaction rate if the selected ad-pushing algorithm is used in your search engine.
 """)
 
 st.markdown("""
@@ -24,20 +32,20 @@ st.markdown("""
 """)
 
 # File upload for the ad-pushing algorithm:
-algo_file = st.file_uploader("Upload a Docker image file:", type=["tar", "docker"])
+algo_file = st.file_uploader("Upload an ad-pushing algorithm:", type=["tar", "docker"])
 if algo_file:
     st.write(f"Selected Docker Image File: {algo_file.name}")
 
-# File upload for the ad database:
-csv_file = st.file_uploader("Upload a commercial-ad database (Optional):", type="csv")
-if csv_file:
-    print(csv_file)
-    st.write(f"Selected CSV File: {csv_file.name}")
+# # File upload for the ad database:
+# csv_file = st.file_uploader("Upload a commercial-ad database (Optional):", type="csv")
+# if csv_file:
+#     print(csv_file)
+#     st.write(f"Selected CSV File: {csv_file.name}")
 
-# File upload for the persona data:
-persona_file = st.file_uploader("Upload persona data (Optional):", type="csv")
-if persona_file:
-    st.write(f"Selected CSV File: {persona_file.name}")
+# # File upload for the persona data:
+# persona_file = st.file_uploader("Upload persona data (Optional):", type="csv")
+# if persona_file:
+#     st.write(f"Selected CSV File: {persona_file.name}")
 
 # Button for displaying the results:
 run_clicked = st.button("Run")
