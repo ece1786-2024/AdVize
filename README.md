@@ -8,7 +8,7 @@ AdVize is a tool for app builders to more efficiently evaluate their ad-pushing 
 
 The structure of AdVize looks like the following:
 
-<img src="./assets/AdVize_ProjectFlow.png" alt="AdVize ProjectFlow" width="400"/>
+<img src="./assets/Advize_ProjectFlow.png" alt="AdVize ProjectFlow" width="400"/>
 
 ## Instructions
 
