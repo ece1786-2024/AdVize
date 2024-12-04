@@ -6,6 +6,9 @@ AdVize is a tool for app builders to more efficiently evaluate their ad-pushing 
 
 <img src="./assets/AdVize_usage.png" alt="AdVize Usage" width="400"/>
 
+The structure of AdVize looks like the following:
+
+
 ## Instructions
 
 1. Start the AdVize server by running `python app/app.py`.
