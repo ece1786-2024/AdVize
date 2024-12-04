@@ -1,0 +1,14 @@
+{"time":"2024-11-13T18:09:08.409112215Z","level":"INFO","msg":"using version","core version":"0.18.6"}
+{"time":"2024-11-13T18:09:08.410457023Z","level":"INFO","msg":"created symlink","path":"/content/drive/MyDrive/ECE1786 Project/Fine-tune/wandb/run-20241113_180908-sgl0c2lx/logs/debug-core.log"}
+{"time":"2024-11-13T18:09:08.519065799Z","level":"INFO","msg":"created new stream","id":"sgl0c2lx"}
+{"time":"2024-11-13T18:09:08.519591227Z","level":"INFO","msg":"stream: started","id":"sgl0c2lx"}
+{"time":"2024-11-13T18:09:08.51964054Z","level":"INFO","msg":"sender: started","stream_id":"sgl0c2lx"}
+{"time":"2024-11-13T18:09:08.519625504Z","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"sgl0c2lx"}}
+{"time":"2024-11-13T18:09:08.519669521Z","level":"INFO","msg":"handler: started","stream_id":{"value":"sgl0c2lx"}}
+{"time":"2024-11-13T18:09:09.022215234Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-13T18:21:04.661188053Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-13T18:21:05.848476301Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-13T19:57:09.42876969Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/lovezmj965721-university-of-toronto/huggingface/sgl0c2lx/file_stream"}
+{"time":"2024-11-13T20:29:12.153473958Z","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2024-11-13T20:37:17.011657988Z","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2024-11-13T20:37:17.558950028Z","level":"INFO","msg":"Pausing system monitor"}
