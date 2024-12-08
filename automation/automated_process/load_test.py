@@ -218,7 +218,7 @@ def plot_satisfaction_rates():
 def main():
     while True:
         # user persona data
-        user_data_path = "user_info_shirley.csv"
+        user_data_path = ".csv" # load persona csv here
         user_data = pd.read_csv(user_data_path)
 
         # docker image - ad pushing algo
