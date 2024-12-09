@@ -58,4 +58,4 @@ if run_clicked:
     else:
         st.error("Please upload both files before proceeding.")
 else:
-    st.markdown("Please click the \"Run button\" to see the results.")
+    st.markdown("Please click the \"Run\" button to see the results.")
