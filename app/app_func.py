@@ -86,7 +86,7 @@ import os
 import matplotlib.pyplot as plt
 
 client = OpenAI(
-    api_key="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"
+    api_key="API_KEY"
 ) # paste openai api key here
 
 ##############################################################################
